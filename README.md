@@ -7,4 +7,4 @@ Monopoly Game for 1-6 players.
 Feel free to fork it
 
 # Screenshot 
-![Screenshot](https://github.com/yanniznik/mspaint95/blob/master/ms.png)
+![Screenshot](https://github.com/yanniznik/monopoly/blob/master/images/screenshot.png)
