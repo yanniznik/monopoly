@@ -1,6 +1,8 @@
 body{
     background-image:url(../images/bg.jpg);
     background-size: 200px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .board{
@@ -45,6 +47,37 @@ body{
     width: 15.3%;
     background-size: contain;
     background-repeat: no-repeat;  
+}
+
+.jailed {
+    background-image: url(../images/sad.png)!important;
+    background-color: transparent!important;
+    background-size: contain;
+    background-repeat: no-repeat;
+     background-position:center;
+}
+
+.scores {
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.score {
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+.score span {
+    font-weight: bold;
+}
+
+.lost {
+    background-image: url(../images/lost.png)!important;
+        background-size: contain;
+    background-repeat: no-repeat;
+     background-position:center;
+    background-color: transparent!important;
 }
 
 .board .game.cell.go{
@@ -183,21 +216,37 @@ body{
     width: 25%;
 }
 
-.player#player1 , .player1.cell .content {
+.player#player1 , .player1.cell .content, .playerScore1 {
     background-color: #389c36;
 }
 
-.player#player2 , .player2.cell .content{
+.player#player2 , .player2.cell .content, .playerScore2{
     background-color: #364c9c;
 }
 
-.player#player3 , .player3.cell .content{
+.player#player3 , .player3.cell .content, .playerScore3{
     background-color: #d09461;
 }
 
-.player#player4 , .player4.cell .content{
+.player#player4 , .player4.cell .content, .playerScore4{
     background-color: #d061cd;
 }
+
+.player#player5 , .player5.cell .content, .playerScore5{
+    background-color: #61d067;
+}
+
+.player#player6 , .player6.cell .content, .playerScore6{
+    background-color: #d06191;
+}
+
+.smiling {
+    background-image: url(../images/smiley.png)!important;
+    background-size:contain;
+    background-position:center;
+}
+
+
 
 .player.current-turn{
     background-image:url(../images/crown.png);
@@ -214,11 +263,11 @@ body{
     width: 25%;
     height: 25%;
     margin: 4%;
-    background-color: black;
+    background-color: #364c9c;
     border-radius: 100px;
     opacity:0;
 }
 
 .dice-dot.right{
-    margin-left:36%;
+    margin-left:37%;
 }
